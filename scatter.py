@@ -1,4 +1,8 @@
-# Scatter plot
+#import numpy for handling data and matplotlib for visualization
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Scatter plot (list 'pop' contains data on world population characteristics)
 plt.scatter(x = gdp_cap, y = life_exp, s = np.array(pop) * 2, c = col, alpha = 0.8)
 
 # Previous customizations
